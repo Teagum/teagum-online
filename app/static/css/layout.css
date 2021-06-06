@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  font-family: "Futura", "Helvetica", sans-serif;
+  line-height: 1.5em;
+  color: #3c3836;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1, h2, h3 {
+  margin-top: 2em;
+  color: #1d2021;
+}
+
+header {
+  background-image: url("../img/bg-silver.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  max-width: none; 
+  text-align: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  background-color: #1d2021;
+  opacity: 0.5;
+  justify-content: space-between;
+  padding: 1vw 10em;
+  transition: opacity 1s;
+}
+
+header nav:hover {
+  opacity: 0.8;
+}
+
+.nav-item {
+  display: block;
+  color: #cdc7ba;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+.nav-item:hover {
+  color: #bac0cd;
+}
+
+
+header div {
+  padding: 10vh 2vw 40vh
+}
+
+main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+
+footer.section-footer {
+  font-size: x-small;
+}
+
+pre {
+  background-color: #eee;
+  line-height: 1.5em;
+  padding: 5px;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 4px;
+}

@@ -1,0 +1,39 @@
+{% extends "base.jinja" %}
+{% block title %}Teagum - what else?{% endblock %}
+{% block style %}{% endblock %}
+
+{% block header %}
+{% include "nav.jinja" %}
+{% include "hero.jinja" %}
+{% endblock header %}
+
+{% block content %}
+<section id="intro">
+	<h2>Names and brains</h2>
+	<p>I am a person who learns concepts. Since my first keystroke on my
+	father's computer, I always wanted to know what's behinde all this. The
+	actual thing (listing the contents of a directory) was awesome; however
+	understanding how it works has always been my holy grail.</p>
+
+	<p>So, when dealing with concepts names for actual things become arbitray,
+	at least to a certain degeree. What's the name of your directory listing utility?
+	Is it <code>dir</code> or is it <code>ls</code>? My point is, it doesn't
+	really matter. It is just a name and you can look it up. So, it's easier to remember
+	where to look up names than to memorize them all together.</p>
+
+	<p>So, what is happening is that I always keep forgetting JS
+	function names, CSS properties and especially the syntax of <code>link</code>
+	tag. Really, I do it wrong each and every time.</p>
+
+	<p>This site is a collection for the tiny web development things, whos names I
+	always keep forgetting. Feel free to use it as your cheat sheet, too.</p>
+</section>
+<section id="content">
+	<h2>Content</h2>
+	<ul>
+		<li><a href="{{ url_for('html_hints') }}">HTML</a></li>
+		<li><a href="{{ url_for('css_hints') }}">CSS</a></li>
+		<li><a href="{{ url_for('js_hints') }}">JavaScript</a></li>
+	</ul>
+</section>
+{% endblock %}
