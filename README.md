@@ -1,2 +1,2 @@
 # teagum-online
-Teagum's test website
+On online notebook on easy web dev stuff.
