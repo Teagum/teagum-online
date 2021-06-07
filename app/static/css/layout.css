@@ -11,7 +11,7 @@ h1 {
 }
 
 h1, h2, h3 {
-  margin-top: 2vh;
+  margin-top: 2em;
   color: #1d2021;
 }
 
@@ -21,6 +21,7 @@ header {
   background-repeat: no-repeat;
   background-position: center top;
   text-align: center;
+  max-width: 100%;
 }
 
 header nav{
@@ -56,9 +57,9 @@ header div {
 }
 
 main {
-  margin: 0 auto;
-  max-width: 70vw;
-  padding: 5vh 10px; 
+  margin: 2vh auto;
+  max-width: 75vw;
+  padding: 10px;
 }
 
 
